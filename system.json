@@ -4,14 +4,41 @@
   "description": "A system for playing Star Wars FFG games.",
   "version": "2.0.0",
   "compatibility": {
-    "minimum": 12,
-    "verified": 13,
-    "maximum": 13
+    "minimum": "12",
+    "verified": "13",
+    "maximum": "13"
   },
-  "authors": [{"name": "Esrin"}, {"name": "CStadther"}, {"name": "Wrycu"}, {"name": "Jaxxa"}],
-  "esmodules": ["modules/dice-pool-ffg.js", "modules/swffg-main.js", "lib/slimselect/slimselect.js", "lib/datatables/datatables.min.js"],
-  "styles": ["styles/starwarsffg.css", "lib/pure/grids-min.css", "lib/slimselect/slimselect.css", "lib/datatables/datatables.min.css"],
-  "scripts": ["lib/jszip/jszip.min.js", "lib/jxon/jxon.min.js", "lib/slimselect/slimselect.js"],
+  "authors": [
+    {
+      "name": "Esrin"
+    },
+    {
+      "name": "CStadther"
+    },
+    {
+      "name": "Wrycu"
+    },
+    {
+      "name": "Jaxxa"
+    }
+  ],
+  "esmodules": [
+    "modules/dice-pool-ffg.js",
+    "modules/swffg-main.js",
+    "lib/slimselect/slimselect.js",
+    "lib/datatables/datatables.min.js"
+  ],
+  "styles": [
+    "styles/starwarsffg.css",
+    "lib/pure/grids-min.css",
+    "lib/slimselect/slimselect.css",
+    "lib/datatables/datatables.min.css"
+  ],
+  "scripts": [
+    "lib/jszip/jszip.min.js",
+    "lib/jxon/jxon.min.js",
+    "lib/slimselect/slimselect.js"
+  ],
   "socket": true,
   "packs": [],
   "packFolders": [],
@@ -56,10 +83,14 @@
     "distance": 5,
     "units": "ft"
   },
-  "primaryTokenAttribute": "wounds",
-  "secondaryTokenAttribute": "strain",
+  "primaryTokenAttribute": "stats.wounds",
+  "secondaryTokenAttribute": "stats.strain",
   "url": "https://github.com/Wafhi3n/StarWarsFFG",
   "manifest": "https://github.com/Wafhi3n/StarWarsFFG/releases/latest/download/system.json",
-  "download": "https://github.com/Wafhi3n/StarWarsFFG/releases/download/v1.911/system.zip",
-  "license": "LICENSE.txt"
+  "download": "https://github.com/Wafhi3n/StarWarsFFG/releases/download/v2.0.0/system.zip",
+  "license": "LICENSE.txt",
+  "relationships": {
+    "systems": [],
+    "requires": []
+  }
 }
