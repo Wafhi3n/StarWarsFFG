@@ -4,9 +4,9 @@
   "description": "A system for playing Star Wars FFG games.",
   "version": "2.0.0",
   "compatibility": {
-    "minimum": "12",
-    "verified": "13",
-    "maximum": "13"
+    "minimum": 12,
+    "verified": 13,
+    "maximum": 13
   },
   "authors": [
     {
